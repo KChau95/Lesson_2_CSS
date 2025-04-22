@@ -1,0 +1,39 @@
+/*
+    Do not wrap with the div as it will cause text to align
+
+    Make sure justy-content and align-items paired with display: flex
+*/
+
+main{
+    height: 100vh;
+    border: 2px solid black;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} 
+
+/*
+    Use box-sizing: border-box to avoid sizing issues
+
+    Use padding for inner spacing instead of margin
+
+    Margin is for content spacing
+
+    Box-shadow for professional work and keep border styles consistent
+*/
+#cardContainer{
+    width:250px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color:white;
+    border: 2px solid #ddd;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#cardContainer h2{
+    margin-bottom: 10px;
+}
+
