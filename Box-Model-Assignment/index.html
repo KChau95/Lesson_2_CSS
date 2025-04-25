@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Blog Post</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1>Kevin's Blog</h1>
+    <article>
+        <div class="postHead">
+            <h5>04/23/2025</h5>
+            <h2>Random Day</h2>
+        </div>
+        <p>Imagine debugging a flaky test that fails only on Tuesdays: you sprinkle print-statements, but the culprit hides until you enable your editor’s “time-travel” debugger, step back to the moment the code built its mock clock, and discover that the lambdas you passed to `schedule_task()` close over a mutable default argument created at import time—meaning every run after Monday 23:59 inherits the previous week’s timestamp; a one-line fix (`default_factory=datetime.utcnow` in a `dataclasses.field`) turns a ghost bug into a teachable reminder that in Python, *function defaults live forever unless you make them factories*, and that temporal state is just another kind of global you forgot you had.</p>
+        
+    </article>
+</body>
+</html>

@@ -1,0 +1,15 @@
+*{
+    font-family: arial, Sans-serif;
+}
+
+body{
+    height: 200vh
+}
+
+
+nav{
+    top: 0;
+    position: sticky;
+    background-color: lightblue;
+    color: brown;
+}

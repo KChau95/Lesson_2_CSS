@@ -1,4 +1,66 @@
-.box {
+/*
+    -----------------------------------
+    |                                 |<-----MARGIN
+    |  -----------------------------  |
+    |  |                           |  |
+    |  |   ----------------------  |<-|---------BORDER
+    |  |   |  CONTENT           |  |  |
+    |  |   |                    |<-|--|---------------PADDING  
+    |  |   ----------------------  |  |
+    |  -----------------------------  |
+    -----------------------------------
+
+*/
+
+/*
+    Use box-sizing: border-box to fix the border to align with the 200px width and 100px height
+*/
+.box1 {
     width: 200px;
     height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: lightpink;
+    box-sizing: border-box;
+}
+
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color:lightgray;
+}
+
+/*
+    Padding: (top, right, bottom, left)
+*/
+.box3{
+    padding: 10px 20px 15px 5px;
+    background-color: cornflowerblue;
+}
+
+
+/*
+    border: ([border-width] [border-style] [border-color])
+    border-radius gives rounded borders
+*/
+.box4{
+    /* border: 5px solid black;
+    border: 3px dashed red; */
+    border: 4px dotted blue;
+    border-radius: 10px
+}
+
+/*
+    margin --> top right bottom left
+    margin:auto --> will push the content to the center (needs to have width value)
+*/
+.box5{
+    width:200px;
+    background-color: lightblue;
+    margin:auto;
+    /*margin: 30px 10px 5px 30px*/
+}
+
+.box6{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3)
 }

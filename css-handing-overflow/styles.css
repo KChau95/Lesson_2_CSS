@@ -1,0 +1,19 @@
+/* 
+overflow: hidden will cut off the text to width of the box 
+overflow: auto will generate scrolling when necessary
+*/
+
+.overflow{
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    overflow: auto
+}
+
+.overflow2{
+    margin-top: 5px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    overflow: auto
+}
