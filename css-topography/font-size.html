@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing the Font Size</title>
+    <style>
+        /*
+            em -- Relative to parent elements lem = 100%
+            rem -- Relative to the root ( html {font-szie: 16px }) 1rem = 16px
+            vw, vh -- relative viewport width and height
+        */
+        .small{
+            font-size: 12px;
+        }
+
+        .medium{
+            font-size: 18px;
+        }
+
+        .large{
+            font-size: 24px;
+        }
+
+        /*--------------------------------------------------------------*/
+
+        .relative-size{
+            font-size: 1.5em;
+        }
+
+        /*
+            font-size: 5vw is 5 percent of the view width
+        */
+        .viewport-size{
+            font-size: 5vw; 
+        }
+
+        .light{
+            font-weight: 300;
+        }
+
+        .normal {
+            font-weight: 400;
+        }
+
+        .bold{
+            font-weight: 700;
+    
+        }
+    </style>
+</head>
+<body>
+    <p><b><---------USING THE FONT-SIZES-------------></b></p>
+    <p class="small">this is a small text</p>
+    <p class="medium">this is a medium text</p>
+    <p class="large">this is a large text</p>
+    <p><b><------USE OF RELATIVE AND VIEWPORT--------></b></p>
+    <p class="relative-size">this is a relative size</p>
+    <p class="viewport-size">viewport size</p>
+    <p><b><------USE OF FONT WEIGHT AND FONT STYLES------></b></p>
+    <p class="light">Light Text</p>
+    <p class="normal">Normal Text</p>
+    <p class="bold">Bold Text</p>
+</body>
+</html>

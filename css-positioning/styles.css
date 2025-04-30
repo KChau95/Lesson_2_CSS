@@ -32,7 +32,10 @@
     background-color: yellow;
 }
 
-/* This is good for navigation bars as it sticks to the top */
+/* 
+    This is good for navigation bars as it sticks to the top 
+    top:0 is needed for it to work
+*/
 .sticky{
     position:sticky;
     top: 0;
@@ -40,6 +43,10 @@
     padding: 10px;
     z-index: 2;
 }
+
+/* 
+    z-index gives precedence for appearence on the browser
+*/
 
 .box{
     position: absolute;
