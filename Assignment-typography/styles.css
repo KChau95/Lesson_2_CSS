@@ -1,6 +1,7 @@
 *{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2C365E;
+    color: white;
     
 }
 
@@ -13,13 +14,14 @@
     line-height: 1.3;
     background-color: #484D6D;
     box-shadow: 5px 10px 10px lightblue;
+    color: white;
 }
 
 .blogTitle{
     text-transform: uppercase;
 }
 
-.trademark{
+#trademark{
     line-height: 30
 }
 
@@ -31,5 +33,5 @@
 nav{
     position: sticky;
     top: 0;
-    z-index: 1
+    z-index: 0;
 }
