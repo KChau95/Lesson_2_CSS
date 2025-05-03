@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids</title>
+    <style>
+        .grid-container{
+            display:grid;
+            background-color: lightgrey;
+            padding: 10px;
+            grid-template-columns: 1fr 2fr 1fr;
+            /*grid-template-rows: 100px 100px;*/
+            gap: 20px;
+            /*justify-items: center;*/
+            /*align-items: center;*/
+            place-items: center;
+        }
+
+        .items{
+            background-color: steelblue;
+            color:white;
+            padding:20px;
+            margin:5px;
+        }
+
+        /*
+            This is the first items---> box covers two rows and two columns of space
+        */
+        .items:nth-child(1){
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+    </div>
+</body>
+</html>
